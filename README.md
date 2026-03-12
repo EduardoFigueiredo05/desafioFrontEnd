@@ -1,38 +1,26 @@
-# frontend-vue
+# Vitrine e Backoffice (Front-end Vue.js)
 
-This template should help get you started developing with Vue 3 in Vite.
+Este é o Front-end desenvolvido em Vue para consumir a API de gestão de produtos. Possui interface para listar o catálogo, além de funcionalidades para criar, editar e excluir produtos, incluindo feedback visual para regras de negócio.
 
-## Recommended IDE Setup
+## Tecnologias Utilizadas
+- Vue.js 3 (Composition API)
+- Vue Router (Navegação SPA)
+- Axios (Comunicação HTTP com a API)
+- Vite
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Como rodar o projeto localmente
 
-## Recommended Browser Setup
+**1. Pré-requisitos**
+É necessário ter o **Node.js** instalado na sua máquina. Certifique-se também de que a API (Back-end) já está a correr na porta `8000`.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+**2. Clonar o repositório**
+```bash
+git clone [https://github.com/SEU_USUARIO/desafio-loja-frontend.git](https://github.com/SEU_USUARIO/desafio-loja-frontend.git)
+cd desafio-loja-frontend
 
-## Customize configuration
+**Instalar dependëncias**
+- npm install
+**Inicialização da aplicação**
+- npm run dev
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+**Acesse o Link através do link**
