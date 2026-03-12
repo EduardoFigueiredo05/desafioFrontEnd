@@ -17,10 +17,11 @@ Este é o Front-end desenvolvido em Vue para consumir a API de gestão de produt
 ```bash
 git clone [https://github.com/SEU_USUARIO/desafio-loja-frontend.git](https://github.com/SEU_USUARIO/desafio-loja-frontend.git)
 cd desafio-loja-frontend
+```
 
-**Instalar dependëncias**
+**3. Instalar dependëncias**
 - npm install
-**Inicialização da aplicação**
+Inicialização da aplicação
 - npm run dev
 
-**Acesse o Link através do link**
+Acesse o Link através do link
